@@ -1,0 +1,21 @@
+@import '../../../../../../styles/index.scss';
+
+.userform{
+  border: 1px solid $textSecondary;
+  height: 50px;
+  padding: 0 16px;
+  width: 310px;
+  font-size: 18px;
+  outline: none !important;
+  margin-bottom: 10px;
+
+  &:focus {
+    border: 2px solid  $bgHeaderAside;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}

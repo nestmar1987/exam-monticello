@@ -1,0 +1,88 @@
+@import '../../../../../../styles/constants/index.scss';
+@import '../../../../../../styles/_mixins.scss';
+
+.slider-hero {
+    height: 100%;
+}
+.hero-dots {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.hero-dots li button {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 40px;
+    color: transparent;
+    background: transparent;
+    font-size: 1px;
+    padding: 0;
+
+    &:hover {
+        background-color: white;
+        opacity: 0.7;
+    }
+}
+
+.hero-dots li.slick-active {
+    background-color: white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: $deviceSizeSM) {
+    .hero-dots li {
+        display: none;
+    }
+}
+
+.hero-prev-arrow {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    cursor: pointer;
+    z-index: 10;
+
+    @media screen and (max-width: $deviceSizeSM) {
+        display: flex;
+    }
+
+    &:hover {
+      box-shadow: 0px 1px 9px white;
+    }
+}
+
+.hero-next-arrow {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+    cursor: pointer;
+
+  @media screen and (max-width: $deviceSizeSM) {
+    display: flex;
+  }
+
+  &:hover {
+    box-shadow: 0px 1px 9px white;
+  }
+}

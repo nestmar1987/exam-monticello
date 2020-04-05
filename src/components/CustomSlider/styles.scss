@@ -1,0 +1,100 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.slider {
+  width: 100%;
+}
+
+.slick-slider {
+  padding: 48px;
+
+  @media screen and (max-width: $deviceSizeXXS) {
+    padding: 0;
+  }
+}
+
+.news-prev-arrow {
+  width: 40px;
+  height: 40px;
+  border: 1px solid $white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 285px;
+  left: 0;
+  cursor: pointer;
+  z-index: 10;
+
+  &:hover {
+    box-shadow: 0px 1px 9px white
+  }
+  @media screen and (max-width: $deviceSizeXXS) {
+  display: none;
+  }
+}
+
+
+.news-next-arrow {
+  width: 40px;
+  height: 40px;
+  border: 1px solid $white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 285px;
+  right: 0;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 1px 9px white
+}
+@media screen and (max-width: $deviceSizeXXS) {
+  display: none;
+}
+}
+
+.news-dots {
+  list-style: none;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  
+}
+.news-dots li {
+  margin-left: 40px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.news-dots li button {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  color: transparent;
+  background: transparent;
+  font-size: 1px;
+  padding: 0;
+  
+
+  &:hover {
+    background-color: white;
+    opacity: 0.7;
+  }
+}
+
+.news-dots li.slick-active {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: flex !important;
+  flex-direction: row;
+}
+

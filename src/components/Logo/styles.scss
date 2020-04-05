@@ -1,0 +1,11 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.logo {
+  width: 100%;
+  max-width: 300px;
+}
+
+.logo-aside {
+  margin-bottom: 50px;
+}

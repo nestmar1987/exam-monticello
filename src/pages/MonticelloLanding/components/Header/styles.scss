@@ -1,0 +1,59 @@
+@import '../../../../styles/constants/index.scss';
+@import '../../../../styles/_mixins.scss';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  min-height: 110px;
+  padding-top: 56px;
+  display: flex;
+
+  @media screen and (max-width: $deviceSizeXS) {
+    padding-top: 16px;
+    height: 120px;
+  }
+
+  &--on-scroll {
+    background-color: $bgHeaderAside;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    min-height: auto;
+    border-bottom: 1px solid #00000050;
+  }
+
+  &__content {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 54px;
+    max-width: 1600px;
+    width: 100%;
+ 
+    @media screen and (max-width: $deviceSizeXS) {
+      height: initial;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+
+  &__right-block {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: $deviceSizeXS) {
+      width: 100%;
+      justify-content: space-between;
+      padding: 4px 0;
+    }
+  }
+
+  &__menu-btn-wrapper {
+    display: flex;
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+}
