@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/exam-monticello/static/css/main.16551400.chunk.css",
+    "main.js": "/exam-monticello/static/js/main.fd2ca6e0.chunk.js",
+    "main.js.map": "/exam-monticello/static/js/main.fd2ca6e0.chunk.js.map",
+    "runtime-main.js": "/exam-monticello/static/js/runtime-main.0923c2f1.js",
+    "runtime-main.js.map": "/exam-monticello/static/js/runtime-main.0923c2f1.js.map",
+    "static/css/2.34d25fd3.chunk.css": "/exam-monticello/static/css/2.34d25fd3.chunk.css",
+    "static/js/2.8b43b6b4.chunk.js": "/exam-monticello/static/js/2.8b43b6b4.chunk.js",
+    "static/js/2.8b43b6b4.chunk.js.map": "/exam-monticello/static/js/2.8b43b6b4.chunk.js.map",
+    "index.html": "/exam-monticello/index.html",
+    "precache-manifest.403a0398236bd06156369f215df4940d.js": "/exam-monticello/precache-manifest.403a0398236bd06156369f215df4940d.js",
+    "service-worker.js": "/exam-monticello/service-worker.js",
+    "static/css/2.34d25fd3.chunk.css.map": "/exam-monticello/static/css/2.34d25fd3.chunk.css.map",
+    "static/css/main.16551400.chunk.css.map": "/exam-monticello/static/css/main.16551400.chunk.css.map",
+    "static/js/2.8b43b6b4.chunk.js.LICENSE": "/exam-monticello/static/js/2.8b43b6b4.chunk.js.LICENSE",
+    "static/media/Frame.png": "/exam-monticello/static/media/Frame.19288150.png",
+    "static/media/styles.scss": "/exam-monticello/static/media/monticello-news-bg.a78c2755.png",
+    "static/media/Img-1.png": "/exam-monticello/static/media/Img-1.4d244f04.png",
+    "static/media/Img-2.png": "/exam-monticello/static/media/Img-2.173b594b.png",
+    "static/media/Img2.png": "/exam-monticello/static/media/Img2.f7771850.png",
+    "static/media/Img3.png": "/exam-monticello/static/media/Img3.3ecefff5.png",
+    "static/media/Logo.svg": "/exam-monticello/static/media/Logo.15183204.svg",
+    "static/media/facebook-icon.svg": "/exam-monticello/static/media/facebook-icon.52760dc5.svg",
+    "static/media/image1.png": "/exam-monticello/static/media/image1.2d62019a.png",
+    "static/media/image2.png": "/exam-monticello/static/media/image2.6d0bc5d5.png",
+    "static/media/image3.png": "/exam-monticello/static/media/image3.6b3e1c49.png",
+    "static/media/image4.png": "/exam-monticello/static/media/image4.caaea7f6.png",
+    "static/media/image5.png": "/exam-monticello/static/media/image5.387b131f.png",
+    "static/media/insta-icon.svg": "/exam-monticello/static/media/insta-icon.fe3e6d94.svg",
+    "static/media/slick-theme.css": "/exam-monticello/static/media/slick.f97e3bbf.svg",
+    "static/media/twitter-icon.svg": "/exam-monticello/static/media/twitter-icon.44633bca.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0923c2f1.js",
+    "static/css/2.34d25fd3.chunk.css",
+    "static/js/2.8b43b6b4.chunk.js",
+    "static/css/main.16551400.chunk.css",
+    "static/js/main.fd2ca6e0.chunk.js"
+  ]
+}
