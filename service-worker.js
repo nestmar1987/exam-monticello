@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/exam-monticello/precache-manifest.403a0398236bd06156369f215df4940d.js"
+  "/exam-monticello/precache-manifest.c0f2ef9c1c2c23a2dcf370e87d8bb17f.js"
 );
 
 self.addEventListener('message', (event) => {
