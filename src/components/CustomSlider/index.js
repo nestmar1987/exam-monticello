@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 import types from 'prop-types';
 import { FontIcon } from '../FontIcon';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 // Styles
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import './styles.scss';
 
 function SampleNextArrow(props) {

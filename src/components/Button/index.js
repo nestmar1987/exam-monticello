@@ -1,6 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 
+// Styles
+
 import './styles.scss';
 
 const Button = ({ children, withBorder,borderColor, smallSize, largeSize, bigSize }) => {
