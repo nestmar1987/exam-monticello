@@ -3,12 +3,13 @@ import classNames from 'classnames';
 
 import './styles.scss';
 
-const Button = ({ children, withBorder,borderColor, smallSize, largeSize }) => {
+const Button = ({ children, withBorder,borderColor, smallSize, largeSize, bigSize }) => {
   const modify = classNames({
     'button--with-border': withBorder,
     [`button--border-${borderColor}`]: borderColor,
     'button--small-size': smallSize,
     'button--large-size': largeSize,
+    'button--big-size': bigSize,
   
   });
 

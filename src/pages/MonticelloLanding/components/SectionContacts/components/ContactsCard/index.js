@@ -56,7 +56,7 @@ export const ContactsCard = ({ data }) => {
                      name="Email"
                      type="Email"/>
                 <div className="contacts-card__btn-wrap">
-                    <Button withBorder borderColor smallSize>
+                    <Button withBorder borderColor smallSize >
                         Submit
                     </Button>
                 </div>

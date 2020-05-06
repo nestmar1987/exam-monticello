@@ -4,9 +4,9 @@
 
   .about {
     background-color: $white;;
-  
+    min-height: 100vh;
+
     &__content {
-      min-height: 100vh;
       padding: 160px 0 50px 0;
   
       @media screen and (max-width: $deviceSizeXS) {

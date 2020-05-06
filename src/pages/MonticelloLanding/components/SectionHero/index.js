@@ -34,7 +34,7 @@ export const SectionHero = props => {
           </HeroSlider>
           
             <div className="btn-scroll-down">
-              <Link to='about'>
+              <Link to='about' smooth={true}>
             <FontIcon icon="keyboard_arrow_down" size={'sm'}/>
            </Link> 
            </div>

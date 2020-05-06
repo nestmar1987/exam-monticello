@@ -22,11 +22,10 @@ export const Footer = () => {
               <div className="footer__logo-wrap">
                 <Logo maxWidth="254" svg={logo} />
                 <div className="footer__text-wrap">
-                  <p>Copyrights &copy; 2017 Monticello </p>
-                  <p>Made with &hearts; by Ga Huy</p>
+                  <p>Copyrights &copy; 2020 Monticello </p>
                 </div>
               </div>
-              <SocialBlock links={socialLinks} />
+              <SocialBlock />
             </div>    
             </ContentContainer>
         </footer>

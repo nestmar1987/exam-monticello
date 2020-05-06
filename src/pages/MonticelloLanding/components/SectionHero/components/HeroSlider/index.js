@@ -57,6 +57,8 @@ class HeroSlider extends Component {
             dotsClass: 'hero-dots',
             nextArrow: <NextArrow />,
             prevArrow: <PrevArrow />,
+            autoplay:true,
+            autoplaySpeed: 2000,
         };
 
         return (

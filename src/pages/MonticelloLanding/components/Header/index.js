@@ -51,7 +51,7 @@ export const Header = props => {
           <Logo maxWidth="254" svg={logo} />
           <Navbar activeItem="About Us" links={navigationLinks} />
           <div className="header__right-block">
-            <SocialBlock links={socialLinks} />
+            <SocialBlock />
             <HamburgerButton
               handleClick={handleToggleAside}
               className="header__menu-btn-wrapper"

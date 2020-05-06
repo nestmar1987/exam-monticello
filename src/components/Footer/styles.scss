@@ -2,7 +2,7 @@
 
 
 .footer {
-    height: 524px;
+    height: 350px;
     width: 100%;
     background-image: url('./../../assets/images/bg-footer.png');
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     @media screen and (max-width: $deviceSizeXMD) {
         position: absolute;
         top: 1050px;
-        height: 350px;
+        height: 250px;
     }
 
     @media screen and (max-width: 685px) {
@@ -53,28 +53,16 @@
         margin-top: 42px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
 
         @media screen and (max-width: 475px) {
             font-size: 10px;
         }
 
-
-        &.footer__text-wrap p:nth-of-type(1){
-            border-right: 1px solid $white;
-            padding: 5px 20px 0 0;
+        &.footer__text-wrap p{
             text-align: center;
 
-            @media screen and (max-width: 475px) {
-                padding: 5px 5px 0 0;
-            }
-
         }
-        &.footer__text-wrap p:nth-of-type(2){
-            padding: 5px 20px 0 20px;
-        
-            @media screen and (max-width: 475px) {
-                padding: 5px 0 0 5px;
-            }
-        }
+       
     }
 }

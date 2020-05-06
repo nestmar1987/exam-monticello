@@ -52,6 +52,8 @@ class CustomSlider extends Component {
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
             dotsClass: 'news-dots',
+            autoplay:true,
+            autoplaySpeed: 2000,
 
             responsive: [
                 {

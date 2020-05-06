@@ -33,6 +33,10 @@
     max-width: 190px ;
   }
 
+  &--big-size {
+    max-width: 288px ;
+  }
+
   &:hover {
     background-color: $bgHeaderAside;
     color: white;

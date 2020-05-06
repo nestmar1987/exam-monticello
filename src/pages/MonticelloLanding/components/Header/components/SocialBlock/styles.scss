@@ -17,23 +17,27 @@
 }
 
 .social-icon {
+  color: $white;
 
   &__instagram {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: $white;
   }
 
   &__facebook {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: $white;
   }
 
   &__twitter {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: $white;
   }
 
   &__wrapper-facebook {

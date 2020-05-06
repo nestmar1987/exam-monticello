@@ -5,9 +5,9 @@
   background-image: url('../../../../assets/images/monticello-news-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 
   &__content {
-    min-height: 100vh;
     padding: 160px 0 50px 0;
 
     @media screen and (max-width: $deviceSizeXS) {
