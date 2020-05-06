@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e440e9f8991bed92d4a97ea90bd81636",
+    "revision": "2c7ab0be11ffad60701f8691c7c460b3",
     "url": "/exam-monticello/index.html"
   },
   {
-    "revision": "02cad814017f69583a0c",
+    "revision": "1f0b6e09728e055cb516",
     "url": "/exam-monticello/static/css/2.34d25fd3.chunk.css"
   },
   {
-    "revision": "433a553a19fea330e7d8",
-    "url": "/exam-monticello/static/css/main.16551400.chunk.css"
+    "revision": "e513254b1561dbefa3c8",
+    "url": "/exam-monticello/static/css/main.74cf81b8.chunk.css"
   },
   {
-    "revision": "02cad814017f69583a0c",
-    "url": "/exam-monticello/static/js/2.8b43b6b4.chunk.js"
+    "revision": "1f0b6e09728e055cb516",
+    "url": "/exam-monticello/static/js/2.efdada5e.chunk.js"
   },
   {
     "revision": "7b84ee27318968f72cb464bc2fe4d6ec",
-    "url": "/exam-monticello/static/js/2.8b43b6b4.chunk.js.LICENSE"
+    "url": "/exam-monticello/static/js/2.efdada5e.chunk.js.LICENSE"
   },
   {
-    "revision": "433a553a19fea330e7d8",
-    "url": "/exam-monticello/static/js/main.fd2ca6e0.chunk.js"
+    "revision": "e513254b1561dbefa3c8",
+    "url": "/exam-monticello/static/js/main.5c9e786e.chunk.js"
   },
   {
     "revision": "2cc367bee98a539ca69f",
@@ -76,10 +76,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/exam-monticello/static/media/bg-footer.b1992421.png"
   },
   {
-    "revision": "52760dc57a6da6ced3ab7c7022da42ed",
-    "url": "/exam-monticello/static/media/facebook-icon.52760dc5.svg"
-  },
-  {
     "revision": "87677e6a19b78f7bbd13d5f5acf2c2a1",
     "url": "/exam-monticello/static/media/gothambold1.87677e6a.woff"
   },
@@ -108,10 +104,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/exam-monticello/static/media/image5.387b131f.png"
   },
   {
-    "revision": "fe3e6d94328471b7d43da7d43efebd56",
-    "url": "/exam-monticello/static/media/insta-icon.fe3e6d94.svg"
-  },
-  {
     "revision": "580bf9b0883d1c17a447a11083dfeeab",
     "url": "/exam-monticello/static/media/monticello-hero-bg.580bf9b0.png"
   },
@@ -134,9 +126,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/exam-monticello/static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "44633bcac18b6f88a665404a99921161",
-    "url": "/exam-monticello/static/media/twitter-icon.44633bca.svg"
   }
 ]);
